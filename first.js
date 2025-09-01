@@ -16,15 +16,24 @@ let d = 15;
 The result will be cannot access 'd' before initialization.
 */
 
-function testScope(){
-    if(true){
-        var x = 10;
-        let y = 20;
-        console.log("inside block : x =",x,",y=",y);
-    }
+// function testScope(){
+//     if(true){
+//         var x = 10;
+//         let y = 20;
+//         console.log("inside block : x =",x,",y=",y);
+//     }
 
-    console.log("Outside block : x =",x);//works
-    console.log("Outside block : y =",y); //error: because the y is undefinde.
+//     console.log("Outside block : x =",x);//works
+//     console.log("Outside block : y =",y); //error: because the y is undefinde.
 
+// }
+// testScope();
+
+let guessNum=20;
+let userNum=prompt("Guess the number 0 to 100:");
+
+while(userNum != guessNum){
+    userNum=prompt("You guess the wrong number try again.")
+    
 }
-testScope();
+console.log("you guessed the right number.");

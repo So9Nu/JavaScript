@@ -1,17 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script type="text/JavaScript">
-        document.write("javascript")
-    </script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event Handling Example</title>
 </head>
-<body>
-    <noscript>
-       
-        JavaScript   is disabled in your computer.
-    </noscript>
+<body onload="alert('Page is loaded!')">
+
+
+  <input type="text" name="name" id="myInput" 
+         onfocusin="sonuFunction()" 
+         onblur="aFunction()" 
+         placeholder="Type your name here">
+
+  <p id="my">This is a paragraph</p>
+
+
+  <button onclick="alert('Demo button clicked!')">Click me</button>
+
+  <script>
+    
+    function sonuFunction() {
+      document.getElementById("my").innerHTML = "Input box is focused!";
+      document.getElementById("my").style.color = "green";
+    }
+
+  
+    function aFunction() {
+      document.getElementById("my").innerHTML = "Input box lost focus!";
+      document.getElementById("my").style.color = "red";
+    }
+  </script>
+
 </body>
 </html>
