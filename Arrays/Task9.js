@@ -11,6 +11,7 @@ for(let i=0;i<items.length;i++){
     let offer=items[i]*10/100;
     let finalPrice=items[i]-offer;
     sum+=finalPrice;
+    console.log("The value after offer=",finalPrice);
 }
 
 console.log(`The total discout of each items of 10% and the total final price of each items is ${sum}`);
