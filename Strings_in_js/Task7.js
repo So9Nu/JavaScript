@@ -17,4 +17,4 @@ let userName="@"+cleanName+fullName.length;
 
 alert("your user-name is:" + userName);
 console.log(userName);
-
+ 

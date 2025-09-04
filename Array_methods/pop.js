@@ -2,6 +2,7 @@
 let items=["apple","mango","Litchi","orange","potato","chips","momo","chowmien"];
 console.log(items);
 items.pop();
+console.log(items.toString());
 
 console.log("after the delete items.",items.pop(),"\n");
 for(let i=0;i<items.length;i++){
