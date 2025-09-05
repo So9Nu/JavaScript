@@ -4,5 +4,5 @@ the foreach loop.
 */
 let nums=[2,3,4,5,6];
 nums.forEach((nums)=>{
-    console.log(nums*nums);
+    console.log(nums**4);
 })
