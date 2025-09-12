@@ -18,6 +18,6 @@ console.log("sum=",sum);
 let factorial=arr.reduce((pre,curr)=>{
     return pre*curr;
 });
-console.log("Factorial=",factorial);
+console.log("Factorial=",factorial*factorial);
 
 // calculate the product.

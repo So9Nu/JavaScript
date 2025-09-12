@@ -1,0 +1,13 @@
+h1{
+    color: red;
+    align-items: center;
+    text-decoration: line-through;
+    background-color: black;
+}
+button{
+    background-color: green;
+    color: white;
+    shape-image-threshold: inherit;
+    box-sizing: border-box; color: beige;
+    cursor: pointer;
+}
