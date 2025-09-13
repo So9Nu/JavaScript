@@ -11,3 +11,24 @@ button{
     box-sizing: border-box; color: beige;
     cursor: pointer;
 }
+div{
+    width: 2rem;
+    height: 2rem;
+    align-items: center;
+    color:red;
+}
+input{
+    background-color: salmon;
+    text-emphasis-color: white;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+button{
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+    background-color: rgb(13, 13, 255);
+}
